@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estudo table</title>
+  </head>
+  <body>
+    <table>
+      <colgroup>
+        <col />
+        <col span="2" style="background-color: rgb(186, 117, 250)" />
+        <col span="2" style="background-color: rgb(255, 196, 0)" />
+      </colgroup>
+      <caption>
+        Tabela de produtos
+      </caption>
+      <tr>
+        <th scope="colgroup" rowspan="2"></th>
+        <th scope="colgroup" colspan="2">Loja 1</th>
+        <th scope="colgroup" colspan="2">Loja 2</th>
+      </tr>
+      <tr>
+        <td scope="col">Atacado</td>
+        <td scope="col">Varejo</td>
+        <td scope="col">Atacado</td>
+        <td scope="col">Varejo</td>
+      </tr>
+      <tr>
+        <td scope="row">Produto 1</td>
+        <td>R$ 9,99</td>
+        <td>R$ 11,99</td>
+        <td>R$ 7,99</td>
+        <td>R$ 9,99</td>
+      </tr>
+      <tr>
+        <td scope="row">Produto 2</td>
+        <td>R$ 7,99</td>
+        <td>R$ 9,99</td>
+        <td>R$ 11,99</td>
+        <td>R$ 13,99</td>
+      </tr>
+    </table>
+  </body>
+</html>
