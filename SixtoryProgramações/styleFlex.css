@@ -1,0 +1,29 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+.container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.violet {
+  background-color: rgb(186, 130, 238);
+}
+
+.blue {
+  background-color: rgb(192, 227, 255);
+}
